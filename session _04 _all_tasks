@@ -1,0 +1,183 @@
+# 📚 Homework Session
+
+## Overview
+
+This folder contains my homework, practice work, code, datasets, and notes completed during this study session.
+
+The main purpose of this session is to practice **Python, Pandas, Data Preprocessing, EDA, Data Visualization, and basic Machine Learning concepts**.
+
+---
+
+## 📂 Contents
+
+* **Python Practice**
+
+  * Python syntax
+  * Variables and data types
+  * Conditional statements
+  * Loops
+  * Functions
+
+* **Data Preprocessing**
+
+  * Checking missing values
+  * Removing duplicates
+  * Handling incorrect data
+  * Selecting columns
+  * Preparing data for analysis
+
+* **Exploratory Data Analysis (EDA)**
+
+  * Descriptive statistics
+  * Correlation analysis
+  * Box plots
+  * Identifying important features
+  * Understanding relationships between variables
+
+* **Data Visualization**
+
+  * Matplotlib
+  * Seaborn
+  * Box plots
+  * Correlation heatmaps
+
+* **Machine Learning**
+
+  * Preparing features and target
+  * Train/test split
+  * Model training
+  * Predictions
+  * Model evaluation
+
+---
+
+## 🛠️ Tools & Libraries
+
+The homework uses:
+
+* Python
+* Jupyter Notebook
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Scikit-learn
+
+---
+
+## 📊 Dataset
+
+The current dataset contains student performance information, including:
+
+* Student ID
+* Name
+* Age
+* Gender
+* Study Hours
+* Attendance
+* Assignments
+* Previous Score
+* Final Score
+
+The dataset is used to practice data cleaning, analysis, visualization, and machine-learning preparation.
+
+---
+
+## 🎯 Learning Goals
+
+By completing this homework session, I aim to understand:
+
+1. How to inspect and clean a dataset.
+2. How to identify missing values and duplicates.
+3. How to work with Pandas DataFrames.
+4. How to perform basic EDA.
+5. How to visualize relationships between variables.
+6. How correlation works.
+7. How to identify important features.
+8. How to prepare data for a machine-learning model.
+9. How to understand and fix common Python and Pandas errors.
+
+---
+
+## ⚠️ Common Errors Encountered
+
+During the session, some common errors may occur, such as:
+
+### `KeyError`
+
+Usually means that Pandas cannot find the specified column.
+
+For example:
+
+```python
+df["target"]
+```
+
+will produce a `KeyError` if the DataFrame does not contain a column named `target`.
+
+### `SyntaxError`
+
+This can happen when normal English instructions are accidentally entered as Python code.
+
+Incorrect:
+
+```python
+If target is numeric;
+```
+
+Correct:
+
+```python
+# If target is numeric
+```
+
+---
+
+## 📝 Notes
+
+All code should be tested before being considered complete.
+
+Column names are **case-sensitive** in Pandas. For example:
+
+```python
+Age
+```
+
+and
+
+```python
+age
+```
+
+are treated as different column names.
+
+The definition of the `target` column should follow the homework/assignment requirements rather than being created arbitrarily.
+
+---
+
+## 🚀 Progress
+
+* [x] Load dataset
+* [x] Inspect dataset
+* [x] Check missing values
+* [x] Check duplicates
+* [x] Remove duplicates
+* [ ] Complete EDA
+* [ ] Complete correlation analysis
+* [ ] Complete visualization tasks
+* [ ] Define target according to assignment
+* [ ] Prepare features and target
+* [ ] Train machine-learning model
+* [ ] Evaluate model
+* [ ] Finalize homework
+
+---
+
+## 👩‍💻 Author
+
+**Ayesha**
+
+BS Computer Science
+Homework & Practice Session — 2026
+
+
